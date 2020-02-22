@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Wine Drop | Taste a new selection of wines every month</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </head>
@@ -13,9 +13,11 @@
 <body>
 <article class="container">
     <!-- Callout -->
-    <section class="callout">
-        <h1>The finest wines delivered to your doorstep.</h1>
-        <p>Sign up today to start receiving the world's best wines every month. The first delivery is free!</p>
+    <section class="callout" >
+        <h1 >The finest wines delivered to your doorstep.</h1>
+        <p class="lead">Sign up today to start receiving the world's best wines every month for just <s>£29.99!</s> <strong> <mark> The first delivery is free!</mark></strong> </p>
+        <p ><small class="text-muted"> Customers must be over 18. Please drink responsibly. </small></p>
+        <button type="button" class="btn btn-success">Click Here!</button>
     </section>
     <!----/.callout-->
     <hr>
@@ -23,34 +25,40 @@
     <!-- Quotes -->
     <section class="quotes">
         <h2 class="text-uppercase">Quotes:</h2>
-        <div class="quote">
-            <p>I've learnt so much about good wines - life-changing!</p>
+        <blockquote class="blockquote">
+            <p>"I've learnt so much about good wines - life-changing!"</p>
             <p>- Sarah Jane</p>
-        </div>
-        <div class="quote">
-            <p>It's taken all the effort out of choosing an exceptional wine!</p>
+        </blockquote>
+        <blockquote class="blockquote">
+            <p>"It's taken all the effort out of choosing an exceptional wine!"</p>
             <p>- Jane Doe</p>
-        </div>
-        <div class="quote">
-            <p>It's like Christmas every month!</p>
+        </blockquote>
+        <blockquote class="blockquote">
+            <p>"It's like Christmas every month!"</p>
             <p>- Richard B</p>
+        </blockquote>
     </section>
     <!----/.quotes-->
     <hr>
 
     <!-- Features -->
     <section class="feature">
-        <h2>Features:</h2>
+        <h2 class="text-uppercase">Features:</h2>
         <div class="feature">
             <h3>Feature 1</h3>
-            <p>Fackin lav it, Mate. Lovely jubbly amazing glorious wines and that. Stuff and things like how good and easy it all is weeeeeeee! Yum Yum wish I had some free wine ;)</p>
+            <p>Fackin lav it, Mate. Lovely jubbly amazing glorious wines and that. Stuff and things like how good and easy it all is weeeeeeee! Yum Yum wish I had some free wine ;) <br>
+            <button type="button" class="btn btn-light btn-sm">Read More</button></p>
+            
         </div>
         <div class="feature">
             <h3>Feature 2</h3>
-            <p>Lovely jubbly amazing glorious wines and that. Stuff and things like how good and easy it all is weeeeeeee! Yum Yum wish I had some free wine ;)</p>
-        </div><div class="feature">
+            <p>Lovely jubbly amazing glorious wines and that. Stuff and things like how good and easy it all is weeeeeeee! Yum Yum wish I had some free wine ;)<br>
+            <button type="button" class="btn btn-light btn-sm">Read More</button></p>
+        </div>
+        <div class="feature">
             <h3>Feature 3</h3>
-            <p>Lovely jubbly amazing glorious wines and that. Stuff and things like how good and easy it all is weeeeeeee! Yum Yum wish I had some free wine ;)</p>
+            <p>Lovely jubbly amazing glorious wines and that. Stuff and things like how good and easy it all is weeeeeeee! Yum Yum wish I had some free wine ;)<br>
+            <button type="button" class="btn btn-light btn-sm">Read More</button></p>
         </div>
     </section>
     <!----/.features-->
@@ -88,5 +96,6 @@
   </tbody>
 </table>
     </section>
+    </article>
 </body>
 </html>
