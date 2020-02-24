@@ -7,7 +7,8 @@
     <title>Wine Drop | Taste a new selection of wines every month</title>
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/490ea72588.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
@@ -23,6 +24,11 @@
         </div>
     </nav>
     <article class="container mt-3">
+        <div class="row">
+            <div class="col-12">
+                <div class="alert alert-warning"><strong>Sale now on!</strong> Sign up for 12 months and get 50% off- Limited time only <a href="/">See here for deatils</a></div>
+            </div>
+        </div>
         <!-- Callout -->
         <div class="row">
             <div class="col-12">
@@ -48,23 +54,43 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12 col-md-4">
-                    <blockquote class="blockquote">
-                        <p>"I've learnt so much about good wines - life-changing!"</p>
-                        <p>- Sarah Jane</p>
-                    </blockquote>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/girl-image.png" class="rounded-circle mr-3" height=100 width=100 alt="girl-image">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>"I've learnt so much about good wines - life-changing!"</p>
+                                <p>- Sarah Jane</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-12 col-md-4">
-                    <blockquote class="blockquote">
-                        <p>"It's taken all the effort out of choosing an exceptional wine!"</p>
-                        <p>- Jane Doe</p>
-                    </blockquote>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="media">
+                        <div class="d-none d-sm-block">
+                            <img src="images/guy-image.png" class="rounded-circle mr-3" height=100 width=100 alt="guy-image">
+                        </div>
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>"It's taken all the effort out of choosing an exceptional wine!"</p>
+                                <p>- Richard B</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
-                <div class="d-none d-md-block col-md-4">
-                    <blockquote class="blockquote">
-                        <p>"It's like Christmas every month!"</p>
-                        <p>- Richard B</p>
-                    </blockquote>
+                
+                <div class="d-none d-lg-block col-lg-4">
+                    <div class="media">
+                        <img src="images/geek-image.png" class="rounded-circle mr-3" height=100 width=100 alt="geek-image">
+                        <div class="media-body">
+                            <blockquote class="blockquote">
+                                <p>"It's like Christmas every month!"</p>
+                                <p>- Jane Doe</p>
+                            </blockquote>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -81,21 +107,21 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 1</h3>
+                        <h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1 <span class="badge badge-success">NEW!<span></h3>
                         <p>Lovely jubbly amazing glorious wines and that. Stuff and things like how good and easy it all is weeeeeeee! Yum Yum wish I had some free wine ;) <br>
                             <button type="button" class="btn btn-light btn-sm">Read More</button></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="feature">
-                        <h3>Feature 2</h3>
+                        <h3><i class="fas fa-credit-card d-none d-sm-inline"></i> Feature 2</h3>
                         <p>Lovely jubbly amazing glorious wines and that. Stuff and things like how good and easy it all is weeeeeeee! Yum Yum wish I had some free wine ;)<br>
                             <button type="button" class="btn btn-light btn-sm">Read More</button></p>
                     </div>
                 </div>
                 <div class="col-12 d-md-none d-lg-block col-lg-4">
                     <div class="feature">
-                        <h3>Feature 3</h3>
+                        <h3><i class="fas fa-times-circle d-none d-sm-inline"></i> Feature 3</h3>
                         <p>Lovely jubbly amazing glorious wines and that. Stuff and things like how good and easy it all is weeeeeeee! Yum Yum wish I had some free wine ;)<br>
                         <button type="button" class="btn btn-light btn-sm">Read More</button></p>
                     </div>
