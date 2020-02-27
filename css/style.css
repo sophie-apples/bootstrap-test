@@ -14,9 +14,14 @@
 }
 
 .alert-warning{
-    background-color: #ffdb6f;
-    border-color: #ffdb6f;
+    background-color: #FEA47F;
+    border-color: #FEA47F;
     color:#30270d;
+}
+
+a{
+    color: #6F1E51;
+    font-weight: bold;
 }
 
 .bottle-container{
@@ -47,7 +52,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.75);
 }
 
 /* NavBar*/
@@ -177,12 +182,16 @@
     border-color: #6F1E51;
 }
 
+.btn-purple-main{
+    margin-top: 25px;
+}
+
 .btn--purple:hover,
 .btn--purple:active,
 .btn--purple:focus,
 .btn--purple:active:focus {
-    background-color: #9b1e59;
-    border-color: #9b1e59;
+    background-color: #892364;
+    border-color: #892364;
     color: white;
     transition-duration: 0.2s;
 }
