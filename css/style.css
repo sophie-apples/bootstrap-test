@@ -18,9 +18,8 @@
     border-color: #ffdb6f;
     color:#30270d;
 }
-.callout-container{
-    height: 100vh;
 
+.bottle-container{
     background: url("../images/winery.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -32,6 +31,14 @@
     justify-content: center;
 
     position: relative;
+}
+
+.callout-container {
+     height: 100vh;
+}
+
+.bottle-gap {
+    height:10vh;
 }
 
 .opaque-overlay {
@@ -163,6 +170,7 @@
 
 .block-divider--short{
     width: 45px;
+    margin-bottom: 50px;
 }
 
 .block-divider--white{
@@ -191,4 +199,10 @@
     border-color: #9b1e59;
     color: white;
     transition-duration: 0.2s;
+}
+
+/*icons*/
+
+.feature i {
+
 }
