@@ -8,7 +8,10 @@
     background-color: purple;
 }
 
-.site-wide-alert{}
+.site-wide-alert{
+    border-radius: 0;
+    margin-bottom:0;
+}
 
 .callout-container{
     height: 100vh;
