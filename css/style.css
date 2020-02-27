@@ -137,20 +137,6 @@
     color: #fff;
 }
 
-.container-wrapper--bottles{
-    background: url("../images/winery.jpg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-}
-
 .favourites-container h2{
     color: #fff;
 }
@@ -203,6 +189,33 @@
 
 /*icons*/
 
-.feature i {
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
+.feature i{
+    margin-bottom:20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn{
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:#6F1E51;
+}
+
+.feature .btn:hover,
+.feature .btn:active,
+.feature .btn:focus,
+.feature .btn:active:focus {
+    background-color: #6F1E51;
+    border-color: white;
+    color: white;
+    transition-duration: 0.2s;
 }
