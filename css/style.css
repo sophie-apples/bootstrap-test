@@ -13,6 +13,11 @@
     margin-bottom:0;
 }
 
+.alert-warning{
+    background-color: #ffdb6f;
+    border-color: #ffdb6f;
+    color:#30270d;
+}
 .callout-container{
     height: 100vh;
 
