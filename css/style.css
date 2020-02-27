@@ -102,17 +102,71 @@
     color: #d0d0d0;
 }
 
+/*page headers*/
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
+/*content-containers*/
+
+.content-container{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.container-wrapper{
+    
+}
+
+.container-wrapper--purple{
+    background-color: #6F1E51;
+    color: #fff;
+}
+
+.container-wrapper--bottles{
+    background: url("../images/winery.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.favourites-container h2{
+    color: #fff;
+}
+
 /* block dividers*/
 
 .block-divider {
     height:5px;
-    width:200px;
+    width:100px;
     border:0;
+    background-color: #444;
+}
+
+.block-divider--purple {
     background-color:#6F1E51;
 }
 
 .block-divider--short{
-    width: 100px;
+    width: 45px;
+}
+
+.block-divider--white{
+    background-color: #fff;
 }
 
 /* Buttons*/
