@@ -14,54 +14,58 @@
 </head>
 
 <body>
-	<!--navbar-->
-	<nav class="navbar navbar-light bg-light navbar-expand-sm">
-		<a href="#" class="navbar-brand">Wine Drop</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
-				<li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Wines
-					</a>
-					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<a class="dropdown-item" href="#">France</a>
-						<a class="dropdown-item" href="#">Italy</a>
-						<a class="dropdown-item" href="#">Spain</a>
-						<a class="dropdown-item" href="#">Australia</a>
-						<a class="dropdown-item" href="#">New Zealand</a>
-					</div>
-				</li>
-				<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In/ Sign Up</a></li>
-			</ul>
-		</div>
-		<div class="d-none d-md-block">
-			<p class="navbar-text my-auto mr-2"><i>The Finest Wines Available to Humanity, here and now.</i></p>
-			<a href="/login">Sign In/ Sign Up</a>
-		</div>
-	</nav>
-
-	<!--/navbar-->
-
-	<!--alert-->
-	<!-- <div class="container alert-container">
-		<div class="row">
+	<div class="conatiner-fluid navalert-container">
+		<!--alert-->
+		<div class="container-fluid alert-container">
+		<div class="row d-none d-sm-block">
 			<div class="col-12">
-				<div class="alert alert-warning"><strong>Sale now on!</strong> Sign up for 12 months and get 50% off-
+				<div class="site-wide-alert alert alert-warning">
+                <strong>Sale now on!</strong> Sign up for 12 months and get 50% off-
 					Limited time only <a href="/">See here for deatils</a></div>
 			</div>
 		</div>
-	</div> -->
-	<!--/alert-->
+	</div>
+		<!--/alert-->
 
-	<!-- Callout -->
+		<!--navbar-->
+		<nav class="navbar navbar-dark navbar-expand-sm">
+			<a href="#" class="navbar-brand">Wine Drop</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="active nav-item mr-2"><a class="nav-link" href="/">Home</a></li>
+					<li class="nav-item mr-2"><a class="nav-link" href="/about">About</a></li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Wines
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">France</a>
+							<a class="dropdown-item" href="#">Italy</a>
+							<a class="dropdown-item" href="#">Spain</a>
+							<a class="dropdown-item" href="#">Australia</a>
+							<a class="dropdown-item" href="#">New Zealand</a>
+						</div>
+					</li>
+
+					<li class="nav-item mr-2 d-block d-sm-none"><a class="nav-link" href="/login">Sign In/ Sign Up</a>
+					</li>
+				</ul>
+			</div>
+			<div class="d-none d-md-block">
+				<p class="navbar-text my-auto mr-2"><i>The finest wines available to humanity; here and now.</i></p>
+				<a href="/login">Sign In/ Sign Up</a>
+			</div>
+		</nav>
+	</div>
+	<!--/navbar-->
+	
 	<div class="container-fluid callout-container">
+        <!-- Callout -->
 		<div class="opaque-overlay">&nbsp</div>
 		<div class="row">
 			<div class="col-12">
