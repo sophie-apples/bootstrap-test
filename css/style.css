@@ -58,7 +58,9 @@
     border: 0;
 }
 
-
+.navbar-brand{
+    font-weight: bold;
+}
 
 
 .quotes-container{}
